@@ -1,0 +1,50 @@
+[RESOURCES]
+sequencing machine
+sorting machine
+prep team
+truck
+sequencer
+postman
+sorter
+transporter
+[VARIABLES]
+transport.NumberOut
+prepare.NumberOut
+sequence machines.NumberOut
+pick_up_start_time
+sort.NumberIn
+pick up.NumberOut
+transport_time
+sequence labour.NumberIn
+sort logic.NumberOut
+seq logic.NumberOut
+volume
+sort_start_time
+next day items.NumberOut
+end_of_day
+sort logic done.NumberOut
+pick_up_time
+sort.NumberOut
+sort_throughput
+seq logic done.NumberOut
+init logic.NumberOut
+prepare.NumberIn
+seq_time
+min_required_sort_volume
+end of day signal.NumberOut
+end of day signal set.NumberOut
+sequence labour.NumberOut
+seq_start_time
+init finished.NumberOut
+seq_throughput
+earliest_sort_start_time
+split.NumberOut Orig
+items ready.NumberOut
+sort_time
+pick up.NumberIn
+transport.NumberIn
+today.NumberOut True
+batch.NumberOut
+today.NumberOut False
+sequence machines.NumberIn
+items arrive.NumberOut

@@ -1,0 +1,344 @@
+SIMAN Run Controller.
+
+14.009089 Hours>SIMAN Run Controller.
+
+24.710421 Hours>SIMAN Run Controller.
+
+25.577159 Hours>SIMAN Run Controller.
+
+31.141394 Hours>
+31.141394 Hours>
+                                      ARENA Simulation Results
+                                  Wolfgang Garn - License: STUDENT
+
+                                  Summary for Replication 1 of 100
+
+Project: Sorting Centre                                              Run execution date : 9/24/2015
+Analyst: Wolfgang Garn                                               Model revision date: 9/24/2015
+
+Replication ended at time      : 31.141394 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+transport time b1                           .46224     (Insuf)    .46224     .46224          1    
+transport time b2                           .39200     (Insuf)    .39200     .39200          1    
+record sequencing time                      1.5021     (Corr)     .00994     3.5766       4464    
+record sorting time                         .75879     (Corr)     .00461     2.3153       4464    
+wave1 controller.VATime                     .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.NVATime                    .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.WaitTime                   .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.TranTime                   .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.OtherTime                  20.000     (Insuf)    20.000     20.000          1    
+wave1 controller.TotalTime                  20.000     (Insuf)    20.000     20.000          1    
+wave1 controller.VACost                     .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.NVACost                    .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.WaitCost                   .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.TranCost                   .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.OtherCost                  .00000     (Insuf)    .00000     .00000          1    
+wave1 controller.TotalCost                  .00000     (Insuf)    .00000     .00000          1    
+seq controller.VATime                       .00000     (Insuf)    .00000     .00000          1    
+seq controller.NVATime                      .00000     (Insuf)    .00000     .00000          1    
+seq controller.WaitTime                     8.5916     (Insuf)    8.5916     8.5916          1    
+seq controller.TranTime                     .00000     (Insuf)    .00000     .00000          1    
+seq controller.OtherTime                    22.000     (Insuf)    22.000     22.000          1    
+seq controller.TotalTime                    30.591     (Insuf)    30.591     30.591          1    
+seq controller.VACost                       .00000     (Insuf)    .00000     .00000          1    
+seq controller.NVACost                      .00000     (Insuf)    .00000     .00000          1    
+seq controller.WaitCost                     .00000     (Insuf)    .00000     .00000          1    
+seq controller.TranCost                     .00000     (Insuf)    .00000     .00000          1    
+seq controller.OtherCost                    .00000     (Insuf)    .00000     .00000          1    
+seq controller.TotalCost                    .00000     (Insuf)    .00000     .00000          1    
+load.VATime                                     --         --         --         --          0
+load.NVATime                                    --         --         --         --          0
+load.WaitTime                                   --         --         --         --          0
+load.TranTime                                   --         --         --         --          0
+load.OtherTime                                  --         --         --         --          0
+load.TotalTime                                  --         --         --         --          0
+load.VACost                                     --         --         --         --          0
+load.NVACost                                    --         --         --         --          0
+load.WaitCost                                   --         --         --         --          0
+load.TranCost                                   --         --         --         --          0
+load.OtherCost                                  --         --         --         --          0
+load.TotalCost                                  --         --         --         --          0
+prep controller.VATime                          --         --         --         --          0
+prep controller.NVATime                         --         --         --         --          0
+prep controller.WaitTime                        --         --         --         --          0
+prep controller.TranTime                        --         --         --         --          0
+prep controller.OtherTime                       --         --         --         --          0
+prep controller.TotalTime                       --         --         --         --          0
+prep controller.VACost                          --         --         --         --          0
+prep controller.NVACost                         --         --         --         --          0
+prep controller.WaitCost                        --         --         --         --          0
+prep controller.TranCost                        --         --         --         --          0
+prep controller.OtherCost                       --         --         --         --          0
+prep controller.TotalCost                       --         --         --         --          0
+volume controller.VATime                    .00000     (Insuf)    .00000     .00000          1    
+volume controller.NVATime                   .00000     (Insuf)    .00000     .00000          1    
+volume controller.WaitTime                  28.212     (Insuf)    28.212     28.212          1    
+volume controller.TranTime                  .00000     (Insuf)    .00000     .00000          1    
+volume controller.OtherTime                 .00000     (Insuf)    .00000     .00000          1    
+volume controller.TotalTime                 28.212     (Insuf)    28.212     28.212          1    
+volume controller.VACost                    .00000     (Insuf)    .00000     .00000          1    
+volume controller.NVACost                   .00000     (Insuf)    .00000     .00000          1    
+volume controller.WaitCost                  .00000     (Insuf)    .00000     .00000          1    
+volume controller.TranCost                  .00000     (Insuf)    .00000     .00000          1    
+volume controller.OtherCost                 .00000     (Insuf)    .00000     .00000          1    
+volume controller.TotalCost                 .00000     (Insuf)    .00000     .00000          1    
+hparcel.VATime                              .51111     (Corr)     .00000     .74314       3928    
+hparcel.NVATime                             .00000     .00000     .00000     .00000       3928    
+hparcel.WaitTime                            11.603     (Corr)     .00000     21.561       3928    
+hparcel.TranTime                            .00000     .00000     .00000     .00000       3928    
+hparcel.OtherTime                           .00000     .00000     .00000     .00000       3928    
+hparcel.TotalTime                           12.114     (Corr)     .00000     22.254       3928    
+hparcel.VACost                              2.3332     (Corr)     .00000     4.5379       3928    
+hparcel.NVACost                             .00000     .00000     .00000     .00000       3928    
+hparcel.WaitCost                            .00000     .00000     .00000     .00000       3928    
+hparcel.TranCost                            .00000     .00000     .00000     .00000       3928    
+hparcel.OtherCost                           .00000     .00000     .00000     .00000       3928    
+hparcel.TotalCost                           2.3332     (Corr)     .00000     4.5379       3928    
+Entity 1.VATime                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitTime                           4.0000     (Insuf)    4.0000     4.0000          1    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TotalTime                          4.0000     (Insuf)    4.0000     4.0000          1    
+Entity 1.VACost                             .00000     (Insuf)    .00000     .00000          1    
+Entity 1.NVACost                            .00000     (Insuf)    .00000     .00000          1    
+Entity 1.WaitCost                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TranCost                           .00000     (Insuf)    .00000     .00000          1    
+Entity 1.OtherCost                          .00000     (Insuf)    .00000     .00000          1    
+Entity 1.TotalCost                          .00000     (Insuf)    .00000     .00000          1    
+sort controller.VATime                      .00000     (Insuf)    .00000     .00000          1    
+sort controller.NVATime                     .00000     (Insuf)    .00000     .00000          1    
+sort controller.WaitTime                    6.2123     (Insuf)    6.2123     6.2123          1    
+sort controller.TranTime                    .00000     (Insuf)    .00000     .00000          1    
+sort controller.OtherTime                   22.000     (Insuf)    22.000     22.000          1    
+sort controller.TotalTime                   28.212     (Insuf)    28.212     28.212          1    
+sort controller.VACost                      .00000     (Insuf)    .00000     .00000          1    
+sort controller.NVACost                     .00000     (Insuf)    .00000     .00000          1    
+sort controller.WaitCost                    .00000     (Insuf)    .00000     .00000          1    
+sort controller.TranCost                    .00000     (Insuf)    .00000     .00000          1    
+sort controller.OtherCost                   .00000     (Insuf)    .00000     .00000          1    
+sort controller.TotalCost                   .00000     (Insuf)    .00000     .00000          1    
+waveCheck.VATime                            .00000     (Insuf)    .00000     .00000          1    
+waveCheck.NVATime                           .00000     (Insuf)    .00000     .00000          1    
+waveCheck.WaitTime                          .00000     (Insuf)    .00000     .00000          1    
+waveCheck.TranTime                          .00000     (Insuf)    .00000     .00000          1    
+waveCheck.OtherTime                         .00000     (Insuf)    .00000     .00000          1    
+waveCheck.TotalTime                         .00000     (Insuf)    .00000     .00000          1    
+waveCheck.VACost                            .00000     (Insuf)    .00000     .00000          1    
+waveCheck.NVACost                           .00000     (Insuf)    .00000     .00000          1    
+waveCheck.WaitCost                          .00000     (Insuf)    .00000     .00000          1    
+waveCheck.TranCost                          .00000     (Insuf)    .00000     .00000          1    
+waveCheck.OtherCost                         .00000     (Insuf)    .00000     .00000          1    
+waveCheck.TotalCost                         .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.VATime                .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.NVATime               .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.WaitTime              28.212     (Insuf)    28.212     28.212          1    
+sort finish controler.TranTime              .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.OtherTime             .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.TotalTime             28.212     (Insuf)    28.212     28.212          1    
+sort finish controler.VACost                .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.NVACost               .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.WaitCost              .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.TranCost              .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.OtherCost             .00000     (Insuf)    .00000     .00000          1    
+sort finish controler.TotalCost             .00000     (Insuf)    .00000     .00000          1    
+wait for w2 start seq time.Queue.WaitingTi  4.9969     (Corr)     1.6941     6.6912       1543    
+wait for w2 start seq time.Queue.WaitingCo  .00000     .00000     .00000     .00000       1543    
+storage.Queue.WaitingTime                   2.2992     (Corr)     .00000     10.008       4464    
+storage.Queue.WaitingCost                   .00000     .00000     .00000     .00000       4464    
+merge.Queue.WaitingTime                     .28773     (Corr)     .00000     .77843       3721    
+merge.Queue.WaitingCost                     .00000     .00000     .00000     .00000       3721    
+sorting.Queue.WaitingTime                   .75285     (Corr)     .00000     2.3099       4464    
+sorting.Queue.WaitingCost                   .00000     .00000     .00000     .00000       4464    
+wait for wave 2 sorting time.Queue.Waiting  .49353     (Corr)     .00000     1.9372       1543    
+wait for wave 2 sorting time.Queue.Waiting  .00000     .00000     .00000     .00000       1543    
+transport.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000          2    
+transport.Queue.WaitingCost                 .00000     (Insuf)    .00000     .00000          2    
+sequencing machines.Queue.WaitingTime       .34818     (Corr)     .00000     .85122       4464    
+sequencing machines.Queue.WaitingCost       .00000     .00000     .00000     .00000       4464    
+unloading and prepare.Queue.WaitingTime     .01680     (Corr)     .00000     .06056       4464    
+unloading and prepare.Queue.WaitingCost     .00000     .00000     .00000     .00000       4464    
+sequencing labour.Queue.WaitingTime         1.1409     (Corr)     .00000     2.7139       4464    
+sequencing labour.Queue.WaitingCost         .00000     .00000     .00000     .00000       4464    
+transportation storage b1.Queue.WaitingTim  1.7838     (Corr)     .00000     3.5666       2921    
+transportation storage b1.Queue.WaitingCos  .00000     .00000     .00000     .00000       2921    
+wait for w2 finish signal.Queue.WaitingTim  6.2123     (Insuf)    6.2123     6.2123          1    
+wait for w2 finish signal.Queue.WaitingCos  .00000     (Insuf)    .00000     .00000          1    
+transportation storage b2.Queue.WaitingTim  .94288     (Corr)     .00000     1.8846       1543    
+transportation storage b2.Queue.WaitingCos  .00000     .00000     .00000     .00000       1543    
+sequencing storage.Queue.WaitingTime        3.9991     (Corr)     .00000     7.9860       4464    
+sequencing storage.Queue.WaitingCost        .00000     .00000     .00000     .00000       4464    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+wave1 controller.WIP                        .64223     (Insuf)    .00000     1.0000     .00000    
+seq controller.WIP                          .98235     (Insuf)    .00000     1.0000     .00000    
+load.WIP                                    .02743     (Insuf)    .00000     1.0000     .00000    
+prep controller.WIP                         .00000     (Insuf)    .00000     .00000     .00000    
+volume controller.WIP                       .90595     (Insuf)    .00000     1.0000     .00000    
+hparcel.WIP                                 1833.3     (Corr)     .00000     4328.0     1258.0    
+Entity 1.WIP                                .12845     (Insuf)    .00000     1.0000     .00000    
+sort controller.WIP                         .90595     (Insuf)    .00000     1.0000     .00000    
+waveCheck.WIP                               .00000     (Insuf)    .00000     1.0000     .00000    
+sort finish controler.WIP                   .90595     (Insuf)    .00000     1.0000     .00000    
+sequencing machine.NumberBusy               1.0512     (Insuf)    .00000     6.0000     .00000    
+sequencing machine.NumberScheduled          6.0000     (Insuf)    6.0000     6.0000     6.0000    
+sequencing machine.Utilization              .17520     (Insuf)    .00000     1.0000     .00000    
+sorting machine.NumberBusy                  .85167     (Insuf)    .00000     5.0000     .00000    
+sorting machine.NumberScheduled             5.0000     (Insuf)    5.0000     5.0000     5.0000    
+sorting machine.Utilization                 .17033     (Insuf)    .00000     1.0000     .00000    
+prep team.NumberBusy                        .14922     (Insuf)    .00000     3.0000     .00000    
+prep team.NumberScheduled                   3.0000     (Insuf)    3.0000     3.0000     3.0000    
+prep team.Utilization                       .04974     (Insuf)    .00000     1.0000     .00000    
+truck.NumberBusy                            .54862     (Insuf)    .00000     20.000     .00000    
+truck.NumberScheduled                       20.000     (Insuf)    20.000     20.000     20.000    
+truck.Utilization                           .02743     (Insuf)    .00000     1.0000     .00000    
+sequencer.NumberBusy                        .81227     (Insuf)    .00000     6.0000     .00000    
+sequencer.NumberScheduled                   6.0000     (Insuf)    6.0000     6.0000     6.0000    
+sequencer.Utilization                       .13538     (Insuf)    .00000     1.0000     .00000    
+postman.NumberBusy                          16.869     29.200     .00000     515.00     515.00    
+postman.NumberScheduled                     515.00     (Insuf)    515.00     515.00     515.00    
+postman.Utilization                         .03276     .05670     .00000     1.0000     1.0000    
+sorter.NumberBusy                           .85167     (Insuf)    .00000     5.0000     .00000    
+sorter.NumberScheduled                      5.0000     (Insuf)    5.0000     5.0000     5.0000    
+sorter.Utilization                          .17033     (Insuf)    .00000     1.0000     .00000    
+transporter.NumberBusy                      .54862     (Insuf)    .00000     20.000     .00000    
+transporter.NumberScheduled                 20.000     (Insuf)    20.000     20.000     20.000    
+transporter.Utilization                     .02743     (Insuf)    .00000     1.0000     .00000    
+wait for w2 start seq time.Queue.NumberInQ  247.59     (Corr)     .00000     1543.0     .00000    
+storage.Queue.NumberInQueue                 329.59     (Corr)     .00000     1899.0     .00000    
+merge.Queue.NumberInQueue                   38.143     67.938     .00000     2406.0     743.00    
+sorting.Queue.NumberInQueue                 107.91     (Corr)     .00000     1950.0     .00000    
+wait for wave 2 sorting time.Queue.NumberI  24.453     (Corr)     .00000     472.00     .00000    
+transport.Queue.NumberInQueue               .00000     (Insuf)    .00000     .00000     .00000    
+sequencing machines.Queue.NumberInQueue     49.909     (Corr)     .00000     697.00     .00000    
+unloading and prepare.Queue.NumberInQueue   2.4087     .96334     .00000     173.00     .00000    
+sequencing labour.Queue.NumberInQueue       163.54     (Corr)     .00000     2915.0     .00000    
+transportation storage b1.Queue.NumberInQu  167.31     (Corr)     .00000     2921.0     .00000    
+wait for w2 finish signal.Queue.NumberInQu  .19949     (Insuf)    .00000     1.0000     .00000    
+transportation storage b2.Queue.NumberInQu  46.718     (Corr)     .00000     1543.0     .00000    
+sequencing storage.Queue.NumberInQueue      573.26     (Corr)     .00000     2921.0     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+nb items sequenced                             4464  Infinite
+volume wave 1                                  2921  Infinite
+volume wave 2                                  1543  Infinite
+nb items sorted                                4464  Infinite
+nb w2 seq                                      1543  Infinite
+c_nbMerged                                     3206  Infinite
+nb w1 seq                                      2921  Infinite
+prep nb                                        4464  Infinite
+parcel nb                                      5186  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+stat_nb_items_sorted                        4.4640E+05
+w1_stat_sorting_throughput                  48434.    
+stat_sorting_throughput                     34330.    
+w2_stat_sorting_throughput_per_machine      6168.3    
+stat_total_sequencing_time                  8.5916    
+stat_sequencing_throughput_per_machine      8659.5    
+w1_stat_seq_time                            3.5771    
+w1_stat_nb_items_sorted                     2.9210E+05
+w2_stat_sorting_time                        5.0029    
+stat_sequencing_throughput                  51957.    
+w2_stat_seq_time                            1.8946    
+stat_sorting_throughput_per_machine         6866.1    
+w1_stat_sorting_time                        6.0308    
+stat_nb_items_sequenced                     4.4640E+05
+w2_stat_sorting_throughput                  30841.    
+w2_stat_merge_time                          .15773    
+w1_stat_sorting_throughput_per_machine      9686.8    
+w1_stat_merge_time                          .99346    
+stat_total_sorting_time                     13.002    
+logic_violation                             .00000    
+w2_stat_nb_items_sorted                     1.5430E+05
+wave1 controller.NumberIn                   1.0000    
+wave1 controller.NumberOut                  1.0000    
+seq controller.NumberIn                     1.0000    
+seq controller.NumberOut                    1.0000    
+load.NumberIn                               2.0000    
+load.NumberOut                              2.0000    
+prep controller.NumberIn                    .00000    
+prep controller.NumberOut                   .00000    
+volume controller.NumberIn                  1.0000    
+volume controller.NumberOut                 1.0000    
+hparcel.NumberIn                            5186.0    
+hparcel.NumberOut                           3928.0    
+Entity 1.NumberIn                           1.0000    
+Entity 1.NumberOut                          1.0000    
+sort controller.NumberIn                    1.0000    
+sort controller.NumberOut                   1.0000    
+waveCheck.NumberIn                          1.0000    
+waveCheck.NumberOut                         1.0000    
+sort finish controler.NumberIn              1.0000    
+sort finish controler.NumberOut             1.0000    
+sequencing machine.NumberSeized             4464.0    
+sequencing machine.ScheduledUtilization     .17520    
+sequencing machine.BusyCost                 720.19    
+sequencing machine.IdleCost                 .00000    
+sequencing machine.UsageCost                .00000    
+sorting machine.NumberSeized                4464.0    
+sorting machine.ScheduledUtilization        .17033    
+sorting machine.BusyCost                    583.48    
+sorting machine.IdleCost                    .00000    
+sorting machine.UsageCost                   .00000    
+prep team.NumberSeized                      4464.0    
+prep team.ScheduledUtilization              .04974    
+prep team.BusyCost                          69.703    
+prep team.IdleCost                          .00000    
+prep team.UsageCost                         .00000    
+truck.NumberSeized                          40.000    
+truck.ScheduledUtilization                  .02743    
+truck.BusyCost                              375.86    
+truck.IdleCost                              .00000    
+truck.UsageCost                             .00000    
+sequencer.NumberSeized                      4464.0    
+sequencer.ScheduledUtilization              .13538    
+sequencer.BusyCost                          379.42    
+sequencer.IdleCost                          .00000    
+sequencer.UsageCost                         .00000    
+postman.NumberSeized                        3721.0    
+postman.ScheduledUtilization                .03276    
+postman.BusyCost                            7228.9    
+postman.IdleCost                            .00000    
+postman.UsageCost                           .00000    
+sorter.NumberSeized                         4464.0    
+sorter.ScheduledUtilization                 .17033    
+sorter.BusyCost                             397.83    
+sorter.IdleCost                             .00000    
+sorter.UsageCost                            .00000    
+transporter.NumberSeized                    40.000    
+transporter.ScheduledUtilization            .02743    
+transporter.BusyCost                        256.27    
+transporter.IdleCost                        .00000    
+transporter.UsageCost                       .00000    
+All Entities.VACost                         10011.    
+All Entities.NVACost                        .00000    
+All Entities.WaitCost                       .00000    
+All Entities.TranCost                       .00000    
+All Entities.OtherCost                      .00000    
+All Entities.TotalCost                      10011.    
+All Resources.BusyCost                      10011.    
+All Resources.IdleCost                      .00000    
+All Resources.UsageCost                     .00000    
+All Resources.TotalCost                     10011.    
+System.TotalCost                            10011.    
+System.NumberOut                            3935.0    
+

@@ -1,0 +1,129 @@
+[RESOURCES]
+sequencing machine
+sorting machine
+prep team
+truck
+sequencer
+postman
+sorter
+transporter
+[VARIABLES]
+v_startMergingTime
+v_finish
+transport.NumberOut
+v_w1_sorting_throughput
+sort lt seq.NumberOut False
+v_sequencingTimePerWave
+v_wave2startSequencingTime
+wave.NumberOut False
+w1lt w2 sort.NumberOut True
+sorting finished.NumberOut False
+batch merge.NumberOut True
+v_w2_sorting_throughput_per_machine
+v_w2_sequencing_throughput_per_machine
+control prep.NumberOut
+v_w1_sequencing_throughput
+set last item.NumberOut True
+b1 arrived.NumberOut False
+v_lastIemArrived
+v_nbSortingMachines
+sequencing machines.NumberIn
+set last item.NumberOut False
+v_totalSequencingTime
+transport lt merging.NumberOut True
+control sorting done.NumberOut
+v_wave2startMergingTimeActual
+control sequencing.NumberOut
+v_sequencingThroughput
+v_timePrepFinished
+sorting.NumberOut
+v_totalVolume
+w2_prepTimeStop
+transportation storage b1.NumberOut
+wave trans.NumberOut False
+sequencing labour.NumberOut
+wave seq 2.NumberOut False
+waveLogicCheck.NumberOut
+wave sort.NumberOut False
+merge.NumberIn
+transport lt merging.NumberOut False
+sequencing machines.NumberOut
+merge.NumberOut
+wave seq.NumberOut True
+logic okay.NumberOut
+control wave 1.NumberOut
+w1_prepTimeStop
+sfl.NumberOut
+sfl done.NumberOut
+v_sortingThroughput
+seq lt transport.NumberOut False
+Parcels ready.NumberOut
+v_lastParcelNb
+merging lt delivery.NumberOut True
+parcel for next day.NumberOut
+v_w1_sequencing_time
+separate.NumberOut Orig
+w2 start lt sorting.NumberOut False
+v_startSequencingTime
+v_wave1volume
+v_w1_volume
+v_transportationBatchSize
+wave sort.NumberOut True
+v_w2_sequencing_throughput
+v_w2_sorting_time
+trucks arrive.NumberOut
+v_wave2start
+cut off time.NumberOut False
+sequencing labour.NumberIn
+sorting finished.NumberOut True
+batch merge.NumberOut False
+v_wave2startSequencingTimeActual
+prep finished.NumberOut
+v_wave2startSortingTime
+cut off time.NumberOut True
+v_wave2startTransportingTime
+merging lt delivery.NumberOut False
+v_w2_sequencing_time
+v_startTransportingTime
+unloading and prepare.NumberOut
+last item arrival recorded.NumberOut False
+control sorting.NumberOut
+last item arrival recorded.NumberOut True
+b1 arrived.NumberOut True
+wave.NumberOut True
+v_w1_sorting_time
+sorting.NumberIn
+sort lt seq.NumberOut True
+unloading and prepare.NumberIn
+wave trans.NumberOut True
+control seq done.NumberOut
+v_w2_sorting_throughput
+wave seq 2.NumberOut True
+v_w2_merging_time
+truck wave.NumberOut True
+v_startMergingTimeActual
+control volume.NumberOut
+v_startSortingTime
+v_w1_sorting_throughput_per_machine
+v_wave2startMergingTime
+v_w1_sequencing_throughput_per_machine
+v_w1_merging_time
+v_sortingTimePerWave
+w1lt w2 sort.NumberOut False
+v_nbItemsSortedPerWave
+transport.NumberIn
+v_totalSortingTime
+v_startDeliveryTime
+w2 start lt sorting.NumberOut True
+nonsense.NumberOut
+wave seq.NumberOut False
+v_logicViolation
+transportation storage b2.NumberOut
+v_timePrepStarted
+volume control finished.NumberOut
+wave 1 control done.NumberOut
+v_logicStatus
+v_w2_volume
+seq lt transport.NumberOut True
+v_cutOffTime
+truck wave.NumberOut False
