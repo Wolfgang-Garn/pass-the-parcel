@@ -1,0 +1,46 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ' Simulation models for "Smoothly pass the parcel: implementing the theory of swift, even flow"'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Wolfgang
+    family-names: Garn
+    email: w.garn@surrey.ac.uk
+    affiliation: University of Surrey
+    orcid: 'https://orcid.org/0000-0003-2278-8997'
+  - given-names: James
+    family-names: Aitken
+    affiliation: University of Surrey
+  - given-names: Roger
+    family-names: Schmenner
+    affiliation: Indiana University
+identifiers:
+  - type: url
+    value: 'https://github.com/Wolfgang-Garn/pass-the-parcel'
+repository-code: 'https://github.com/Wolfgang-Garn/pass-the-parcel'
+url: 'https://github.com/Wolfgang-Garn/pass-the-parcel'
+abstract: >-
+  This repository contains simulation models and data
+  associated with the paper "Smoothly pass the parcel:
+  implementing the theory of swift, even flow" by W. Garn,
+  J. Aitken and R. Schmenner.
+
+
+  The above-mentioned paper explains the Discrete Event
+  Simulation models (sc-to-be.doe and sc-as-is.doe) and
+  their insights. The models were implemented using the
+  software Arena.
+keywords:
+  - Arena
+  - Simulation
+  - Sorting centre
+  - Operations
+license: CC-BY-SA-4.0
+commit: 6be973b
+version: v2024.6.12
+date-released: '2024-06-12'
